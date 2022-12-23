@@ -27,7 +27,7 @@ body {
     background-size: contain;
     color: antiquewhite;
     text-shadow: 1px 1px 3px  #000;
-    background-image: url(/images/cats_for_body.avif);
+    background-image: url(images/cats_for_body.avif);
 }
 
 .header {
