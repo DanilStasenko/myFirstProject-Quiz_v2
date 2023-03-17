@@ -1,0 +1,19 @@
+.header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    background: url('../../images/bg.png') repeat fixed 100%;
+    background-size: cover;
+    &__title {
+        text-align: center;
+        font-size: 5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        @media ($desktop) {
+            font-size: 8rem;
+        }
+    }
+}
+
